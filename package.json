@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose __tests__/*"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/rafi2011/TeamProfileGenerator/issues"
   },
-  "homepage": "https://github.com/rafi2011/TeamProfileGenerator#readme"
+  "homepage": "https://github.com/rafi2011/TeamProfileGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2",
+    "jest": "^27.0.6"
+  }
 }

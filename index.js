@@ -5,7 +5,7 @@ const Engineer = require("./lib/Engineer.js");
 const Intern = require("./lib/Intern.js");
 const Manager = require("./lib/Manager.js");
 const questions = require("./src/questions.js");
-const open = require("open");
+// const open = require("open");
 
 const htmlTeamArray = [];
 
@@ -135,8 +135,7 @@ function buildHtmlString(cardArray) {
 function renderHtml(str){
   const htmlPageContent = str
   fs.writeFile('index.html', htmlPageContent, (e) =>
-  e ? console.log(e) : open ("index.html"))
+  e ? console.log(e) : console.log("Your file has been succesfully created"))
 }
-
 // 🚀 start
 init();

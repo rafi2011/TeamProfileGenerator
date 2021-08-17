@@ -24,7 +24,7 @@ module.exports = {
     },
 
 ],
-    internquestions: [
+    internQuestions: [
     {
         type: "input",
         name: "nameIntern",
@@ -50,7 +50,7 @@ module.exports = {
     },
 
 ],
-    engineerQuesttions: [
+    engineerQuestions: [
     {
         type: "input",
         name: "nameEngineer",
@@ -66,5 +66,15 @@ module.exports = {
         name: "githubEngineer",
         message: "Please enter your Engineers github ?",
     },
-]
-}
+
+],
+    mainMenuQuestions: [
+        {
+            type: "list",
+            name: "nextMove",
+            message: "What do you want to do  next ?",
+            choices: ["add another intern", "add another engineer", "finished"]
+            
+        },
+        
+]}

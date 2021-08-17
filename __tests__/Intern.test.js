@@ -16,7 +16,7 @@ describe("Intern Class Test", () => {
     // test initialization
     test("testing to get the right id", () => {
       // arrange, act
-      const internObj = new Intern(6, "Nessa", "nessa@gmail.com", "nessa123");
+      const internObj = new Intern(8, "Nessa", "nessa@gmail.com", "nessa123");
   
       // assert
       expect(internObj.getId()).toEqual(8);

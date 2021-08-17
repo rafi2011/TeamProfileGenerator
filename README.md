@@ -6,11 +6,12 @@ This app is a Node.js command-line application that takes in information about e
 ## Getting Started
 
 * clone me, or fork me
-* 🌎 live at: [github pages] ()
+* 🌎 live at: [github pages] (https://rafi2011.github.io/TeamProfileGenerator/)
 
-* Screen shot of the deployed app: ![Screen Shot Of The Deployed App](assets/images/screenshot.jpg)
+* Screen shot of the deployed app: ![Screen Shot Of The Deployed App](assets/images/screenshot.PNG)
 
-* [Watch the video]()
+* [Watch the video]( https://drive.google.com/file/d/1CkfPQGYn1FNAIikmaICoyZbeCoBlR7xF/view?usp=sharing)
+
 ## Deployment
 * just deploy, no other actions needed
 
@@ -19,5 +20,5 @@ This app is a Node.js command-line application that takes in information about e
 * [inquirer] (https://www.npmjs.com/package/inquirer) - objects
 
 ## Acknowledgements
-* **Billie Thompson** - *README template* - [PurpleBooth](https://github.com/PurpleBooth))
+* **Billie Thompson** - *README template* - [PurpleBooth](https://github.com/PurpleBooth)
 
